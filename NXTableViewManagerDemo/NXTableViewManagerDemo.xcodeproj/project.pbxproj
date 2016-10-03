@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88B38A891D9FA039009B3C21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38A881D9FA039009B3C21 /* main.m */; };
+		88B38A8C1D9FA039009B3C21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38A8B1D9FA039009B3C21 /* AppDelegate.m */; };
+		88B38A8F1D9FA039009B3C21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38A8E1D9FA039009B3C21 /* ViewController.m */; };
+		88B38A921D9FA039009B3C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B38A901D9FA039009B3C21 /* Main.storyboard */; };
+		88B38A941D9FA039009B3C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B38A931D9FA039009B3C21 /* Assets.xcassets */; };
+		88B38A971D9FA039009B3C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B38A951D9FA039009B3C21 /* LaunchScreen.storyboard */; };
+		88B38AA21D9FA039009B3C21 /* NXTableViewManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38AA11D9FA039009B3C21 /* NXTableViewManagerDemoTests.m */; };
+		88B38AAD1D9FA039009B3C21 /* NXTableViewManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38AAC1D9FA039009B3C21 /* NXTableViewManagerDemoUITests.m */; };
+		88B38ABD1D9FA0B9009B3C21 /* NXTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38ABC1D9FA0B9009B3C21 /* NXTableViewManager.m */; };
+		88B38AC01D9FA24A009B3C21 /* NXTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38ABF1D9FA24A009B3C21 /* NXTableViewSection.m */; };
+		88B38AC31D9FA454009B3C21 /* NXTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38AC21D9FA454009B3C21 /* NXTableViewItem.m */; };
+		88B38AC91D9FAE5A009B3C21 /* NXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38AC81D9FAE5A009B3C21 /* NXTableViewCell.m */; };
+		88B38AD61DA109D0009B3C21 /* NXTableViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38AD51DA109D0009B3C21 /* NXTableViewStyle.m */; };
+		88B38AD91DA10DB7009B3C21 /* NXActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B38AD81DA10DB7009B3C21 /* NXActionBar.m */; };
+		9FD36E58B394B9A6ECA0F9BB /* libPods-NXTableViewManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 053FEC8E844A0FD70B45ABC5 /* libPods-NXTableViewManagerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88B38A9E1D9FA039009B3C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B38A7C1D9FA039009B3C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B38A831D9FA039009B3C21;
+			remoteInfo = NXTableViewManagerDemo;
+		};
+		88B38AA91D9FA039009B3C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88B38A7C1D9FA039009B3C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B38A831D9FA039009B3C21;
+			remoteInfo = NXTableViewManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053FEC8E844A0FD70B45ABC5 /* libPods-NXTableViewManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NXTableViewManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFE25CA828133B1A2DD27E7 /* Pods-NXTableViewManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXTableViewManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NXTableViewManagerDemo/Pods-NXTableViewManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		88B38A841D9FA039009B3C21 /* NXTableViewManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXTableViewManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B38A881D9FA039009B3C21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88B38A8A1D9FA039009B3C21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88B38A8B1D9FA039009B3C21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88B38A8D1D9FA039009B3C21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88B38A8E1D9FA039009B3C21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88B38A911D9FA039009B3C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88B38A931D9FA039009B3C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88B38A961D9FA039009B3C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88B38A981D9FA039009B3C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B38A9D1D9FA039009B3C21 /* NXTableViewManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXTableViewManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B38AA11D9FA039009B3C21 /* NXTableViewManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXTableViewManagerDemoTests.m; sourceTree = "<group>"; };
+		88B38AA31D9FA039009B3C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B38AA81D9FA039009B3C21 /* NXTableViewManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXTableViewManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B38AAC1D9FA039009B3C21 /* NXTableViewManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXTableViewManagerDemoUITests.m; sourceTree = "<group>"; };
+		88B38AAE1D9FA039009B3C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B38ABB1D9FA0B9009B3C21 /* NXTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTableViewManager.h; sourceTree = "<group>"; };
+		88B38ABC1D9FA0B9009B3C21 /* NXTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTableViewManager.m; sourceTree = "<group>"; };
+		88B38ABE1D9FA24A009B3C21 /* NXTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTableViewSection.h; sourceTree = "<group>"; };
+		88B38ABF1D9FA24A009B3C21 /* NXTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTableViewSection.m; sourceTree = "<group>"; };
+		88B38AC11D9FA454009B3C21 /* NXTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTableViewItem.h; sourceTree = "<group>"; };
+		88B38AC21D9FA454009B3C21 /* NXTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTableViewItem.m; sourceTree = "<group>"; };
+		88B38AC71D9FAE5A009B3C21 /* NXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTableViewCell.h; sourceTree = "<group>"; };
+		88B38AC81D9FAE5A009B3C21 /* NXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTableViewCell.m; sourceTree = "<group>"; };
+		88B38AD41DA109D0009B3C21 /* NXTableViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTableViewStyle.h; sourceTree = "<group>"; };
+		88B38AD51DA109D0009B3C21 /* NXTableViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTableViewStyle.m; sourceTree = "<group>"; };
+		88B38AD71DA10DB7009B3C21 /* NXActionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXActionBar.h; sourceTree = "<group>"; };
+		88B38AD81DA10DB7009B3C21 /* NXActionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXActionBar.m; sourceTree = "<group>"; };
+		A87E8F6E504C34AFD74D7251 /* Pods-NXTableViewManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXTableViewManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NXTableViewManagerDemo/Pods-NXTableViewManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88B38A811D9FA039009B3C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD36E58B394B9A6ECA0F9BB /* libPods-NXTableViewManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B38A9A1D9FA039009B3C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B38AA51D9FA039009B3C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F72F7EEC01AE1778523B68D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				053FEC8E844A0FD70B45ABC5 /* libPods-NXTableViewManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A054B8432B6E9A9F4BBF2DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE25CA828133B1A2DD27E7 /* Pods-NXTableViewManagerDemo.debug.xcconfig */,
+				A87E8F6E504C34AFD74D7251 /* Pods-NXTableViewManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88B38A7B1D9FA039009B3C21 = {
+			isa = PBXGroup;
+			children = (
+				88B38ABA1D9FA09F009B3C21 /* NXTableViewManager */,
+				88B38A861D9FA039009B3C21 /* NXTableViewManagerDemo */,
+				88B38AA01D9FA039009B3C21 /* NXTableViewManagerDemoTests */,
+				88B38AAB1D9FA039009B3C21 /* NXTableViewManagerDemoUITests */,
+				88B38A851D9FA039009B3C21 /* Products */,
+				7A054B8432B6E9A9F4BBF2DA /* Pods */,
+				5F72F7EEC01AE1778523B68D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88B38A851D9FA039009B3C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B38A841D9FA039009B3C21 /* NXTableViewManagerDemo.app */,
+				88B38A9D1D9FA039009B3C21 /* NXTableViewManagerDemoTests.xctest */,
+				88B38AA81D9FA039009B3C21 /* NXTableViewManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88B38A861D9FA039009B3C21 /* NXTableViewManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				88B38A8A1D9FA039009B3C21 /* AppDelegate.h */,
+				88B38A8B1D9FA039009B3C21 /* AppDelegate.m */,
+				88B38A8D1D9FA039009B3C21 /* ViewController.h */,
+				88B38A8E1D9FA039009B3C21 /* ViewController.m */,
+				88B38A901D9FA039009B3C21 /* Main.storyboard */,
+				88B38A931D9FA039009B3C21 /* Assets.xcassets */,
+				88B38A951D9FA039009B3C21 /* LaunchScreen.storyboard */,
+				88B38A981D9FA039009B3C21 /* Info.plist */,
+				88B38A871D9FA039009B3C21 /* Supporting Files */,
+			);
+			path = NXTableViewManagerDemo;
+			sourceTree = "<group>";
+		};
+		88B38A871D9FA039009B3C21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88B38A881D9FA039009B3C21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88B38AA01D9FA039009B3C21 /* NXTableViewManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				88B38AA11D9FA039009B3C21 /* NXTableViewManagerDemoTests.m */,
+				88B38AA31D9FA039009B3C21 /* Info.plist */,
+			);
+			path = NXTableViewManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		88B38AAB1D9FA039009B3C21 /* NXTableViewManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88B38AAC1D9FA039009B3C21 /* NXTableViewManagerDemoUITests.m */,
+				88B38AAE1D9FA039009B3C21 /* Info.plist */,
+			);
+			path = NXTableViewManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		88B38ABA1D9FA09F009B3C21 /* NXTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				88B38ABB1D9FA0B9009B3C21 /* NXTableViewManager.h */,
+				88B38ABC1D9FA0B9009B3C21 /* NXTableViewManager.m */,
+				88B38ABE1D9FA24A009B3C21 /* NXTableViewSection.h */,
+				88B38ABF1D9FA24A009B3C21 /* NXTableViewSection.m */,
+				88B38AD41DA109D0009B3C21 /* NXTableViewStyle.h */,
+				88B38AD51DA109D0009B3C21 /* NXTableViewStyle.m */,
+				88B38AD71DA10DB7009B3C21 /* NXActionBar.h */,
+				88B38AD81DA10DB7009B3C21 /* NXActionBar.m */,
+				88B38AC11D9FA454009B3C21 /* NXTableViewItem.h */,
+				88B38AC21D9FA454009B3C21 /* NXTableViewItem.m */,
+				88B38AC71D9FAE5A009B3C21 /* NXTableViewCell.h */,
+				88B38AC81D9FAE5A009B3C21 /* NXTableViewCell.m */,
+			);
+			name = NXTableViewManager;
+			path = ../NXTableViewManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88B38A831D9FA039009B3C21 /* NXTableViewManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B38AB11D9FA039009B3C21 /* Build configuration list for PBXNativeTarget "NXTableViewManagerDemo" */;
+			buildPhases = (
+				941319C6D5F6B7ED4E121226 /* [CP] Check Pods Manifest.lock */,
+				88B38A801D9FA039009B3C21 /* Sources */,
+				88B38A811D9FA039009B3C21 /* Frameworks */,
+				88B38A821D9FA039009B3C21 /* Resources */,
+				8E8F416146846D5A401CAE95 /* [CP] Embed Pods Frameworks */,
+				413C32F261E2E03C155489D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXTableViewManagerDemo;
+			productName = NXTableViewManagerDemo;
+			productReference = 88B38A841D9FA039009B3C21 /* NXTableViewManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88B38A9C1D9FA039009B3C21 /* NXTableViewManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B38AB41D9FA039009B3C21 /* Build configuration list for PBXNativeTarget "NXTableViewManagerDemoTests" */;
+			buildPhases = (
+				88B38A991D9FA039009B3C21 /* Sources */,
+				88B38A9A1D9FA039009B3C21 /* Frameworks */,
+				88B38A9B1D9FA039009B3C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B38A9F1D9FA039009B3C21 /* PBXTargetDependency */,
+			);
+			name = NXTableViewManagerDemoTests;
+			productName = NXTableViewManagerDemoTests;
+			productReference = 88B38A9D1D9FA039009B3C21 /* NXTableViewManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88B38AA71D9FA039009B3C21 /* NXTableViewManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B38AB71D9FA039009B3C21 /* Build configuration list for PBXNativeTarget "NXTableViewManagerDemoUITests" */;
+			buildPhases = (
+				88B38AA41D9FA039009B3C21 /* Sources */,
+				88B38AA51D9FA039009B3C21 /* Frameworks */,
+				88B38AA61D9FA039009B3C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88B38AAA1D9FA039009B3C21 /* PBXTargetDependency */,
+			);
+			name = NXTableViewManagerDemoUITests;
+			productName = NXTableViewManagerDemoUITests;
+			productReference = 88B38AA81D9FA039009B3C21 /* NXTableViewManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88B38A7C1D9FA039009B3C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nightx;
+				TargetAttributes = {
+					88B38A831D9FA039009B3C21 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					88B38A9C1D9FA039009B3C21 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88B38A831D9FA039009B3C21;
+					};
+					88B38AA71D9FA039009B3C21 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88B38A831D9FA039009B3C21;
+					};
+				};
+			};
+			buildConfigurationList = 88B38A7F1D9FA039009B3C21 /* Build configuration list for PBXProject "NXTableViewManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88B38A7B1D9FA039009B3C21;
+			productRefGroup = 88B38A851D9FA039009B3C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B38A831D9FA039009B3C21 /* NXTableViewManagerDemo */,
+				88B38A9C1D9FA039009B3C21 /* NXTableViewManagerDemoTests */,
+				88B38AA71D9FA039009B3C21 /* NXTableViewManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88B38A821D9FA039009B3C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B38A971D9FA039009B3C21 /* LaunchScreen.storyboard in Resources */,
+				88B38A941D9FA039009B3C21 /* Assets.xcassets in Resources */,
+				88B38A921D9FA039009B3C21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B38A9B1D9FA039009B3C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B38AA61D9FA039009B3C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		413C32F261E2E03C155489D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXTableViewManagerDemo/Pods-NXTableViewManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E8F416146846D5A401CAE95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXTableViewManagerDemo/Pods-NXTableViewManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941319C6D5F6B7ED4E121226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88B38A801D9FA039009B3C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B38AC31D9FA454009B3C21 /* NXTableViewItem.m in Sources */,
+				88B38AC01D9FA24A009B3C21 /* NXTableViewSection.m in Sources */,
+				88B38A8F1D9FA039009B3C21 /* ViewController.m in Sources */,
+				88B38A8C1D9FA039009B3C21 /* AppDelegate.m in Sources */,
+				88B38AC91D9FAE5A009B3C21 /* NXTableViewCell.m in Sources */,
+				88B38A891D9FA039009B3C21 /* main.m in Sources */,
+				88B38AD91DA10DB7009B3C21 /* NXActionBar.m in Sources */,
+				88B38ABD1D9FA0B9009B3C21 /* NXTableViewManager.m in Sources */,
+				88B38AD61DA109D0009B3C21 /* NXTableViewStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B38A991D9FA039009B3C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B38AA21D9FA039009B3C21 /* NXTableViewManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B38AA41D9FA039009B3C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B38AAD1D9FA039009B3C21 /* NXTableViewManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88B38A9F1D9FA039009B3C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B38A831D9FA039009B3C21 /* NXTableViewManagerDemo */;
+			targetProxy = 88B38A9E1D9FA039009B3C21 /* PBXContainerItemProxy */;
+		};
+		88B38AAA1D9FA039009B3C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B38A831D9FA039009B3C21 /* NXTableViewManagerDemo */;
+			targetProxy = 88B38AA91D9FA039009B3C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88B38A901D9FA039009B3C21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B38A911D9FA039009B3C21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88B38A951D9FA039009B3C21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B38A961D9FA039009B3C21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88B38AAF1D9FA039009B3C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88B38AB01D9FA039009B3C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88B38AB21D9FA039009B3C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFE25CA828133B1A2DD27E7 /* Pods-NXTableViewManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXTableViewManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXTableViewManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88B38AB31D9FA039009B3C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87E8F6E504C34AFD74D7251 /* Pods-NXTableViewManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXTableViewManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXTableViewManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88B38AB51D9FA039009B3C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NXTableViewManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXTableViewManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXTableViewManagerDemo.app/NXTableViewManagerDemo";
+			};
+			name = Debug;
+		};
+		88B38AB61D9FA039009B3C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NXTableViewManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXTableViewManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXTableViewManagerDemo.app/NXTableViewManagerDemo";
+			};
+			name = Release;
+		};
+		88B38AB81D9FA039009B3C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NXTableViewManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXTableViewManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXTableViewManagerDemo;
+			};
+			name = Debug;
+		};
+		88B38AB91D9FA039009B3C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NXTableViewManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXTableViewManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXTableViewManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B38A7F1D9FA039009B3C21 /* Build configuration list for PBXProject "NXTableViewManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B38AAF1D9FA039009B3C21 /* Debug */,
+				88B38AB01D9FA039009B3C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B38AB11D9FA039009B3C21 /* Build configuration list for PBXNativeTarget "NXTableViewManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B38AB21D9FA039009B3C21 /* Debug */,
+				88B38AB31D9FA039009B3C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B38AB41D9FA039009B3C21 /* Build configuration list for PBXNativeTarget "NXTableViewManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B38AB51D9FA039009B3C21 /* Debug */,
+				88B38AB61D9FA039009B3C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B38AB71D9FA039009B3C21 /* Build configuration list for PBXNativeTarget "NXTableViewManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B38AB81D9FA039009B3C21 /* Debug */,
+				88B38AB91D9FA039009B3C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88B38A7C1D9FA039009B3C21 /* Project object */;
+}
